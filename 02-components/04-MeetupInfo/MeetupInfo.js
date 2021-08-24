@@ -28,7 +28,7 @@ export default defineComponent({
 
     ISODate() {
       const date = new Date(this.date);
-      
+    
       return date.toISOString().substr(0, 10);
     },
   },
